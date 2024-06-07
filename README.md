@@ -14,7 +14,7 @@ I also imported the World Cities Database so I could join on City gaining Countr
 ```r
 joined_df <- merge(df,geo_df,by.x = "CITY", by.y = "city") 
 ```
-Unfortunatly, we have 225 observations now due to connections like Paris, Texas and Paris, France. I'm going have to filter those out! Great news, the World Cities Database has a column that points out primary cities.
+Unfortunatly, we have 225 observations now due to connections like Paris, Texas and Paris, France. I'm going have to filter those out! Great news, the World Cities Database has a column that points out Capital cities.
 
 ```r
 filtered_df <- filter(joined_df, capital != '')
