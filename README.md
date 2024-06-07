@@ -19,8 +19,14 @@ Unfortunatly, we have 225 observations now due to connections like Paris, Texas 
 ```r
 filtered_df <- filter(joined_df, capital != '')
 ```
-
 Now there is 76 observations – 24 observations less then the original dataset.
+
+```r
+sbdf <- df[ ! df$MUSEUM %in% NAMES_List, ]
+```
+31 + 76 = 107
+Huh? 7 more observations than before?
+Looking at the filtered dataframe (76 observations), there are repeated Museums.
 
 ### Step 3: Plotting
 
