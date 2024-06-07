@@ -1,2 +1,1 @@
-# The Art Newspaper
-## Most Popular Art Museums
+#  Most Popular Art Museums
