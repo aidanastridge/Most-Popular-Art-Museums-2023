@@ -1,8 +1,7 @@
 #  Most Popular Art Museums
 
 ### Step 1: Import
-``` df <- read.csv('_most_popular_art_museums.csv')
-df
+```r df <- read.csv('_most_popular_art_museums.csv')
 ```
 
 ### Step 2: Joining and filtering
