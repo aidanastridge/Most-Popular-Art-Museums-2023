@@ -22,3 +22,10 @@ filtered_df <- filter(joined_df, capital != '')
 
 Now there is 76 observations – 24 observations less then the original dataset.
 
+### Step 3: Plotting
+
+```r
+library(tidyverse)
+library(rhino)
+```
+
