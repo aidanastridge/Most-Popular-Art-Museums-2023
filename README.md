@@ -24,9 +24,11 @@ Now there is 76 observations – 24 observations less then the original dataset.
 ```r
 sbdf <- df[ ! df$MUSEUM %in% NAMES_List, ]
 ```
-31 + 76 = 107
+31 + 76 = 107.
 Huh? 7 more observations than before?
 Looking at the filtered dataframe (76 observations), there are repeated Museums.
+
+Cleaning up thr latter, and adding Countries to the former, I now can join them all together for our original 100 observations.
 
 ### Step 3: Plotting
 
