@@ -7,5 +7,7 @@ geo_df <- read.csv('worldcities.csv')
 ```
 
 ### Step 2: Joining and filtering
-``` ```
+```r
+joined_df <- merge(df,geo_df,by.x = "CITY", by.y = "city") 
+```
 
