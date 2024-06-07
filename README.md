@@ -11,3 +11,7 @@ geo_df <- read.csv('worldcities.csv')
 joined_df <- merge(df,geo_df,by.x = "CITY", by.y = "city") 
 ```
 
+```r
+filtered_df <- filter(joined_df, capital != '') 
+```
+
