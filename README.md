@@ -7,7 +7,7 @@ geo_df <- read.csv('worldcities.csv')
 ```
 
 Imported The Art Museums "Most Popular Art Museums of 2023" dataset. The prior dataset has 100 observations.
-I also imported the World Cities Database so I could join on City gaining Country, Longitude, and Latitude in the process.
+I also imported the World Cities Database so I could join on City gaining Country.
 
 ### Step 2: Joining and filtering
 
@@ -29,7 +29,7 @@ Huh? 7 more observations than before?
 Looking at the filtered dataframe (76 observations), there are repeated Museums.
 
 Cleaning up the latter, and adding Countries to the former, I now can join them all together to get back to the original 100 observations.
-I will be using a spreadsheet software.
+Excel is your best friend when you have to edit datasets at base level.
 
 ### Step 3: Plotting
 
