@@ -38,5 +38,12 @@ Excel is your best friend when you have to edit datasets at base level.
 ```r
 library(tidyverse)
 library(rhino)
+
+merge %>%
+  e_charts(country) %>%
+  e_map(TOTAL, map = "world") %>%
+  e_visual_map(TOTAL) %>%
+  e_title("Choropleth Total")
+
 ```
 
