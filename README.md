@@ -49,6 +49,7 @@ data <- merge(data,country_count,by.x = "country", by.y = "country")
 ```r
 library(tidyverse)
 library(rhino)
+library(echarts4r)
 
 data %>%
   e_charts(country) %>%
