@@ -33,6 +33,8 @@ Excel is your best friend when you have to edit datasets at base level.
 
 ``` 
 data <- read.csv('final.csv')
+#echarts4r choropleth recognizes South Korea as Korea and North Korea as the Democratic People's Republic of Korea
+data$country <- gsub('Korea, South','Korea',data$country)
 ```
 
 ### Step 3: Plotting
@@ -41,7 +43,7 @@ data <- read.csv('final.csv')
 library(tidyverse)
 library(rhino)
 
-merge %>%
+data %>%
   e_charts(country) %>%
   e_map(TOTAL, map = "world") %>%
   e_visual_map(TOTAL) %>%
