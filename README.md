@@ -37,15 +37,15 @@ subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
 
 ```r
-write.csv(filtered_df,'01.csv')
-write.csv(subset_df,'02.csv')
+write.csv(filtered_df,'1.csv')
+write.csv(subset_df,'2.csv')
 
 #After cleaniing and filtering in excel
-df01 <- read.csv('01.csv')
-df02 <- read.csv('02.csv')
+df1 <- read.csv('1.csv')
+df2 <- read.csv('2.csv')
 
 # joining them together and renaming for echarts4r
-data <- rbind(df01,df02)
+data <- rbind(df1,df2)
 data$country <- gsub('Korea, South','Korea',data$country)
 
 country_count <- data %>%
