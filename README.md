@@ -22,7 +22,7 @@ filtered_df <- filter(joined_df, capital != '')
 Now there is 76 observations – 24 observations less then the original dataset.
 
 ```r
-sbdf <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
+subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
 31 + 76 = 107.
 Huh? 7 more observations than before?
