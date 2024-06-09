@@ -41,7 +41,7 @@ data$country <- gsub('Korea, South','Korea',data$country)
 country_count <- data %>%
   count(country)
 
-merge <- merge(data,country_count,by.x = "country", by.y = "country")
+data <- merge(data,country_count,by.x = "country", by.y = "country")
 ```
 
 ### Step 3: Plotting
