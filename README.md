@@ -33,8 +33,15 @@ Excel is your best friend when you have to edit datasets at base level.
 
 ``` 
 data <- read.csv('final.csv')
+
 #echarts4r choropleth recognizes South Korea as Korea and North Korea as the Democratic People's Republic of Korea
+
 data$country <- gsub('Korea, South','Korea',data$country)
+
+country_count <- data %>%
+  count(country)
+
+merge <- merge(data,country_count,by.x = "country", by.y = "country")
 ```
 
 ### Step 3: Plotting
