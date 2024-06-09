@@ -37,12 +37,12 @@ subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
 
 ```r
-write.csv(filtered_df,'/Users/aidanastridge/Documents/project/01.csv')
-write.csv(subset_df,'/Users/aidanastridge/Documents/project/02.csv')
+write.csv(filtered_df,'01.csv')
+write.csv(subset_df,'02.csv')
 
 #After cleaniing and filtering in excel
-df01 <- read.csv('/Users/aidanastridge/Documents/project/01.csv')
-df02 <- read.csv('/Users/aidanastridge/Documents/project/02.csv')
+df01 <- read.csv('01.csv')
+df02 <- read.csv('02.csv')
 
 # joining them together and renaming
 data <- rbind(df01,df02)
