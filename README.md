@@ -1,6 +1,6 @@
 #  Most Popular Art Museums 2023
 
-[[!Data][https://www.theartnewspaper.com/2024/03/26/the-100-most-popular-art-museums-in-the-world-2023]]
+[!Data]{https://www.theartnewspaper.com/2024/03/26/the-100-most-popular-art-museums-in-the-world-2023}
 
 ### Step 1: Import
 ```r
