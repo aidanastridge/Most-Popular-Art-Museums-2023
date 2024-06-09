@@ -64,8 +64,8 @@ library(echarts4r)
 
 final %>%
   e_charts(country) %>%
-  e_map(TOTAL, map = "world") %>%
-  e_visual_map(TOTAL) %>%
+  e_map(n, map = "world") %>%
+  e_visual_map(n) %>%
   e_title("Choropleth Total")
 
 ```
