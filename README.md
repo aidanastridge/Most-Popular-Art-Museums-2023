@@ -56,7 +56,7 @@ final <- merge(data,country_count,by.x = "country", by.y = "country")
 write.csv(final, 'final.csv')
 ```
 
-### Step 3: Plotting
+### Step 3: Shiny
 
 ```r
 library(tidyverse)
