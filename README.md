@@ -31,7 +31,9 @@ Looking at the filtered dataframe (76 observations), there are repeated Museums.
 Cleaning up the latter, and adding Countries to the former, I now can join them all together to get back to the original 100 observations.
 Excel is your best friend when you have to edit datasets at base level.
 
-``` final.csv ```
+``` 
+data <- read.csv('final.csv')
+```
 
 ### Step 3: Plotting
 
