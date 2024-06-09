@@ -2,6 +2,7 @@
 
 ### Step 1: Import
 ```r
+#Import
 art_df <- read.csv('most_popular_art_museums.csv')
 geo_df <- read.csv('worldcities.csv')
 ```
@@ -12,16 +13,19 @@ I also imported the World Cities Database so I could join on City gaining Countr
 ### Step 2: Joining and filtering
 
 ```r
-joined_df <- merge(art_df,geo_df,by.x = "CITY", by.y = "city") 
+#Join cities database
+joined_df <- merge(art_df,geo_df,by.x = "CITY", by.y = "city")
 ```
 Unfortunatly, we have 225 observations now due to connections like Paris, Texas and Paris, France. I'm going have to filter those out! Great news, the World Cities Database has a column that points out Capital cities.
 
 ```r
+#Choosing primary cities
 filtered_df <- filter(joined_df, capital != '')
 ```
-Now there is 76 observations – 24 observations less then the original dataset.
+Now there is 76 observations: 24 observations less then the original dataset!
 
 ```r
+#Cities lost in the latter process
 subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
 
@@ -33,18 +37,15 @@ Cleaning up the latter, and adding Countries to the former, I now can join them 
 Excel is your best friend when you have to edit datasets at base level.
 
 ```r
-subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
-```
-
-```r
+#Write to clean in Excel
 write.csv(filtered_df,'1.csv')
 write.csv(subset_df,'2.csv')
 
-#After cleaniing and filtering in excel
+#After cleaniing and filtering in Excel
 df1 <- read.csv('1.csv')
 df2 <- read.csv('2.csv')
 
-# joining them together and renaming for echarts4r
+#Joining them together and renaming for echarts4r
 data <- rbind(df1,df2)
 data$country <- gsub('Korea, South','Korea',data$country)
 
