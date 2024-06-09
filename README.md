@@ -24,6 +24,7 @@ Now there is 76 observations – 24 observations less then the original dataset.
 ```r
 subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
+
 31 + 76 = 107.
 Huh? 7 more observations than before?
 Looking at the filtered dataframe (76 observations), there are repeated Museums.
@@ -31,7 +32,16 @@ Looking at the filtered dataframe (76 observations), there are repeated Museums.
 Cleaning up the latter, and adding Countries to the former, I now can join them all together to get back to the original 100 observations.
 Excel is your best friend when you have to edit datasets at base level.
 
-``` 
+```r
+write.csv(filtered_df,'/Users/aidanastridge/Documents/project/1.csv')
+write.csv(subset_df,'/Users/aidanastridge/Documents/project/2.csv')
+```
+
+```r
+subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
+```
+
+```r
 data <- read.csv('final.csv')
 
 #echarts4r choropleth recognizes South Korea as Korea and North Korea as the Democratic People's Republic of Korea
