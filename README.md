@@ -33,25 +33,26 @@ Cleaning up the latter, and adding Countries to the former, I now can join them 
 Excel is your best friend when you have to edit datasets at base level.
 
 ```r
-write.csv(filtered_df,'/Users/aidanastridge/Documents/project/1.csv')
-write.csv(subset_df,'/Users/aidanastridge/Documents/project/2.csv')
-```
-
-```r
 subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
 
 ```r
-data <- read.csv('final.csv')
+write.csv(filtered_df,'/Users/aidanastridge/Documents/project/01.csv')
+write.csv(subset_df,'/Users/aidanastridge/Documents/project/02.csv')
 
-#echarts4r choropleth recognizes South Korea as Korea and North Korea as the Democratic People's Republic of Korea
+#After cleaniing and filtering in excel
+df01 <- read.csv('/Users/aidanastridge/Documents/project/01.csv')
+df02 <- read.csv('/Users/aidanastridge/Documents/project/02.csv')
 
+# joining them together and renaming
+data <- rbind(df01,df02)
 data$country <- gsub('Korea, South','Korea',data$country)
 
 country_count <- data %>%
   count(country)
 
-data <- merge(data,country_count,by.x = "country", by.y = "country")
+final <- merge(data,country_count,by.x = "country", by.y = "country")
+write.csv(final, 'final.csv')
 ```
 
 ### Step 3: Plotting
