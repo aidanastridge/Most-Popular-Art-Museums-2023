@@ -63,7 +63,7 @@ library(tidyverse)
 library(rhino)
 library(echarts4r)
 
-final %>%
+country_count %>%
   e_charts(country) %>%
   e_map(n, map = "world") %>%
   e_visual_map(n) %>%
