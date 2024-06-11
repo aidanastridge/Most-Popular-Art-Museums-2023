@@ -65,12 +65,7 @@ write.csv(final, 'final.csv')
 library(tidyverse)
 library(shiny)
 library(echarts4r)
-
-country_count |>
-  e_charts(country) |>
-  e_map(n, map = "world") |>
-  e_visual_map(n) |>
-  e_title("Choropleth Total")
+library(DT)
 
 ```
 
