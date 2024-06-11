@@ -63,7 +63,7 @@ write.csv(final, 'final.csv')
 
 ```r
 library(tidyverse)
-library(rhino)
+library(shiny)
 library(echarts4r)
 
 country_count %>%
