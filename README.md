@@ -52,7 +52,7 @@ df2 <- read.csv('2.csv')
 data <- rbind(df1,df2)
 data$country <- gsub('Korea, South','Korea',data$country)
 
-country_count <- data %>%
+country_count <- data |>
   count(country)
 
 final <- merge(data,country_count,by.x = "country", by.y = "country")
@@ -66,10 +66,10 @@ library(tidyverse)
 library(shiny)
 library(echarts4r)
 
-country_count %>%
-  e_charts(country) %>%
-  e_map(n, map = "world") %>%
-  e_visual_map(n) %>%
+country_count |>
+  e_charts(country) |>
+  e_map(n, map = "world") |>
+  e_visual_map(n) |>
   e_title("Choropleth Total")
 
 ```
