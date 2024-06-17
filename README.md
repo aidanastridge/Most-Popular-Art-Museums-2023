@@ -68,5 +68,7 @@ library(shiny)
 library(echarts4r)
 library(DT)
 
+final <- read.csv('final.csv')
+
 ```
 
