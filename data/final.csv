@@ -1,0 +1,101 @@
+country,CITY,TOTAL,MUSEUM,X..change.from.2022,X..change.from.2019
+Australia,Sydney,859386,Museum of Contemporary Art Australia,27%,-15%
+Australia,Melbourne,732114,The Ian Potter Centre: NGV Australia †,121%,22%
+Australia,Melbourne,1800124,NGV International †,14%,-26%
+Australia,Sydney,1945810,Art Gallery of New South Wales,90%,51%
+Austria,Vienna,1339660,Upper Belvedere †,52%,6%
+Austria,Vienna,1688509,Kunsthistorisches Museum,25%,-8%
+Austria,Vienna,943974,Albertina,27%,-6%
+Brazil,Belo Horizonte,1474825,Centro Cultural Banco do Brasil,No data,-3%
+Brazil,Rio de Janeiro,1323034,Centro Cultural Banco do Brasil,-3%,-49%
+Canada,Toronto,1091120,Royal Ontario Museum,37%,-17%
+Canada,Toronto,846835,Art Gallery of Ontario,63%,-8%
+France,Paris,1410000,Musée du Quai Branly,40%,27%
+France,Paris,2621696,Centre Pompidou,-13%,-20%
+France,Paris,8860000,Musée du Louvre,15%,-8%
+France,Paris,3871498,Musée d'Orsay,18%,6%
+France,Paris,1239539,Musée de l'Orangerie,22%,20%
+France,Paris,927023,Musée d'Art Moderne de Paris,No data,220%
+France,Giverny,750000,Fondation Monet,16%,No data
+France,Marseille,1300000,mucem,4%,8%
+France,Paris,1550000,Fondation Louis Vuitton,11%,46%
+France,Paris,1187678,Petit Palais,9%,25%
+Germany,Berlin,1700000,Humboldt Forum,13%,Opened 2021
+Greece,Athens,1904456,Acropolis Museum,31%,8%
+Hong Kong,Hong Kong,2797616,M+,38%,Opened 2021
+Hong Kong,Hong Kong,724011,Hong Kong Heritage Museum,No data,No data
+Hong Kong,Hong Kong,1257411,Hong Kong Museum of Art,183%,No data
+Hong Kong,Hong Kong,1260000,Hong Kong Palace Museum,81%,Opened 2022
+Hungary,Budapest,821491,Museum of Fine Arts,10%,62%
+Ireland,Dublin,1017636,National Gallery of Ireland,29%,34%
+Israel,Tel Aviv,906350,Tel Aviv Museum of Art,-15%,-31%
+Italy,Florence,883568,Palazzo Pitti,36%,14%
+Italy,Florence,2717857,Galleria degli Uffizi,22%,15%
+Italy,Turin,1061157,Museo Egizio,18%,24%
+Italy,Venice,1301619,Palazzo Ducale,16%,No data
+Italy,Milan,896681,Palazzo Reale,No data,19%
+Italy,Florence,2013974,Galleria dell'Accademia,41%,18%
+Japan,Tokyo,883596,National Museum of Modern Art (MOMAT),71%,No data
+Japan,Kanazawa,2230939,21st century Museum of Contemporary Art,No data,-14%
+Japan,Tokyo,1924482,Tokyo Metropolitan Art Museum,27%,-33%
+Japan,Tokyo,2250758,National Art Center Tokyo,61%,17%
+Korea,Seoul,4180285,National Museum of Korea Seoul,23%,25%
+Korea,Gyeongju,1340032,Gyeongju National Museum,19%,7%
+Korea,Seoul,2021771,MMCA Seoul,12%,42%
+Korea,Gwacheon,726065,MMCA Gwacheon,11%,12%
+Netherlands,Amsterdam,1686766,Van Gogh Museum,24%,-20%
+Netherlands,Amsterdam,2702824,Rijksmuseum,53%,0%
+New York,New York,768000,Whitney Museum,-8%,-26%
+New Zealand,Wellington,1181637,Museum of New Zealand Te Papa Tongarewa,37%,-24%
+Norway,Oslo,1246000,Nasjonalmuseet,57%,Opened 2022
+Poland,Krakow,1650792,National Museum in Krakow,21%,38%
+Poland,Krakow,2561000,Royal Wawel Castle,43%,No data
+Poland,Warsaw,2023642,Royal Castle,15%,61%
+Portugal,Porto,1147761,Museu de Serralves,No data,7%
+Russia,St Petersburg,2900000,State Russian Museum,9%,21%
+Russia,Moscow,1024610,Moscow Kremlin Museums,19%,-67%
+Russia,Moscow,2100000,State Tretyakov Gallery,10%,-26%
+Russia,St Petersburg,3273753,State Hermitage Museum,16%,-34%
+Russia,St Petersburg,709982,Faberge Museum,39%,No data
+Singapore,Singapore,1723916,National Gallery Singapore,37%,-5%
+Spain,Barcelona,1047094,Museu Picasso,32%,-2%
+Spain,Madrid,1514854,Reina Sofia: Main site †,21%,***
+Spain,Bilbao,1324221,Guggenheim Museum Bilbao,3%,13%
+Spain,Malaga,779279,Museo Picasso Málaga,22%,11%
+Spain,Figueres,726199,Dali Theatre-Museum,21%,-11%
+Spain,Madrid,3337550,Museo Nacional del Prado,36%,-5%
+Spain,Madrid,1017684,Museo Nacional Thyssen-Bornemisza,-5%,-2%
+United Arab Emirates,Abu Dhabi,1247076,Louvre Abu Dhabi,100%,28%
+United Kingdom,London,841575,Imperial War Museum,23%,-22%
+United Kingdom,London,4742038,Tate Modern,22%,-22%
+United Kingdom,Glasgow,1283882,Kelvingrove Art Gallery and Museum,51%,-30%
+United Kingdom,London,2727677,Somerset House,16%,-4%
+United Kingdom,London,1091218,Tate Britain,19%,-40%
+United Kingdom,London,3096508,National Gallery,14%,-48%
+United Kingdom,London,1164018,National Portrait Gallery,Closed,-29%
+United Kingdom,London,5820860,British Museum,42%,-7%
+United Kingdom,Edinburgh,2186841,National Museum of Scotland,11%,-1%
+United Kingdom,Oxford,900277,Ashmolean Museum,24%,-3%
+United Kingdom,Edinburgh,1836057,National Galleries Scotland: National †,44%,16%
+United Kingdom,London,3110000,Victoria and Albert Museum,31%,-21%
+United Kingdom,London,709961,Royal Academy of Arts,2%,-43%
+United States,San Marino,1090475,"The Huntington Library, Art Museum, and Botanical Gardens",5%,32%
+United States,Chicago,1322195,Art Institute of Chicago,27%,-21%
+United States,Bentonville,784971,Crystal Bridges Museum of American Art,30%,12%
+United States,San Francisco,999645,de Young Museum †,25%,-7%
+United States,Houston,999514,"Museum of Fine Arts, Houston",11%,-20%
+United States,Humlebaek,702426,Louisiana Museum of Modern Art,15%,-7%
+United States,New York,2839509,Museum of Modern Art (MoMA),30%,43%
+United States,Boston,952290,Museum of Fine Arts (MFA Boston),34%,-25%
+United States,Los Angeles,895949,The Broad,40%,-2%
+United States,New York,861374,Solomon R. Guggenheim Museum,15%,-33%
+United States,Washington,3829812,National Gallery of Art,18%,-6%
+United States,Washington,1600000,National Museum of African American History and Culture,46%,-20%
+United States,New York,5364000,Metropolitan Museum of Art †,67%,10%
+United States,Grand Rapids,760667,Frederik Meijer Gardens & Sculpture Park,9%,-75%
+United States,Los Angeles,902237,Los Angeles County Museum of Art (Lacma),4%,-7%
+United States,Cleveland,685336,Cleveland Museum of Art,20%,-10%
+United States,Washington,1166129,National Portrait Gallery / Smithsonian American Art Museum (SAAM) † ***,22%,-31%
+United States,Los Angeles,1251134,Getty Center †,26%,-13%
+United States,Washington,701021,National Museum of the American Indian,34%,101%
+Italy,Vatican City,6764858,Vatican Museums,33%,-2%
