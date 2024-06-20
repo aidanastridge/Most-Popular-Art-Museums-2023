@@ -70,6 +70,13 @@ library(DT)
 
 final <- read.csv('final.csv')
 
+ui <- fluidPage(
+  mainPanel(
+    echarts4rOutput('plot'),
+    DTOutput('table')
+  )
+)
+
 ```
 
 ### Step 4: Host
