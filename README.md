@@ -83,7 +83,18 @@ ui <- fluidPage(
   )
 )
 
-server <- function(input, output){}
+server <- function(input, output) {
+
+  output$plot <- renderEcharts4r({ 
+    
+    country_count |>
+    e_charts(country) |>
+    e_map(count, map = "world") |>
+    e_visual_map(count)
+    
+                  })
+    
+}
 
 shinyApp(ui, server)
 
