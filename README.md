@@ -5,7 +5,7 @@
 * [World Cities Database](https://simplemaps.com/data/world-cities)
 ### Step 1: Import
 ```r
-#Import
+# Import
 art_df <- read.csv('most_popular_art_museums.csv')
 geo_df <- read.csv('worldcities.csv')
 ```
@@ -16,19 +16,19 @@ I also imported the World Cities Database so I could join on City gaining Countr
 ### Step 2: Joining and filtering
 
 ```r
-#Join cities database
+# Join cities database
 joined_df <- merge(art_df,geo_df,by.x = "CITY", by.y = "city")
 ```
 Unfortunatly, we have 225 observations now due to connections like Paris, Texas and Paris, France. I'm going have to filter those out! Great news, the World Cities Database has a column that points out Capital cities.
 
 ```r
-#Choosing primary cities
+# Choosing primary cities
 filtered_df <- filter(joined_df, capital != '')
 ```
 Now there is 76 observations: 24 observations less then the original dataset!
 
 ```r
-#Cities lost in the latter process
+# Cities lost in the latter process
 subset_df <- art_df[ ! art_df$MUSEUM %in% NAMES_List, ]
 ```
 
@@ -40,11 +40,11 @@ Cleaning up the latter, and adding Countries to the former, I now can join them 
 Excel is your best friend when you have to edit datasets at base level.
 
 ```r
-#Write to clean in Excel
+# Write to clean in Excel
 write.csv(filtered_df,'1.csv')
 write.csv(subset_df,'2.csv')
 
-#After cleaniing and filtering in Excel
+# After cleaniing and filtering in Excel
 df1 <- read.csv('1.csv')
 df2 <- read.csv('2.csv')
 
@@ -63,18 +63,18 @@ write.csv(final, 'final.csv')
 ### Step 3: Shiny
 
 ```r
-#Libraries
+# Libraries
 
 library(tidyverse)
 library(shiny)
 library(echarts4r)
 library(DT)
 
-#Import
+# Import
 
 final <- read.csv('final.csv')
 
-#Shiny
+# Shiny
 
 ui <- fluidPage(
   mainPanel(
