@@ -48,7 +48,7 @@ write.csv(subset_df,'2.csv')
 df1 <- read.csv('1.csv')
 df2 <- read.csv('2.csv')
 
-#Joining them together and renaming for echarts4r
+# Joining them together and renaming for echarts4r
 data <- rbind(df1,df2)
 data$country <- gsub('Korea, South','Korea',data$country)
 data$country <- gsub('Vatican City','Italy',data$country)
