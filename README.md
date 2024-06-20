@@ -63,12 +63,18 @@ write.csv(final, 'final.csv')
 ### Step 3: Shiny
 
 ```r
+#Libraries
+
 library(tidyverse)
 library(shiny)
 library(echarts4r)
 library(DT)
 
+#Import
+
 final <- read.csv('final.csv')
+
+#Shiny
 
 ui <- fluidPage(
   mainPanel(
