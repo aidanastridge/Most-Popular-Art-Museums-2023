@@ -68,7 +68,8 @@ write.csv(final, 'final.csv')
 library(tidyverse)
 library(shiny)
 library(echarts4r)
-library(DT)
+library(bslib)
+library(bsicons)
 
 # Import
 
@@ -78,8 +79,7 @@ final <- read.csv('final.csv')
 
 ui <- fluidPage(
   mainPanel(
-    echarts4rOutput('plot'),
-    DTOutput('table')
+    echarts4rOutput('plot')
   )
 )
 
