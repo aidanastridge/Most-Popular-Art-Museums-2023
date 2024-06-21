@@ -100,5 +100,3 @@ shinyApp(ui, server)
 
 ```
 
-### Step 4: Host
-
