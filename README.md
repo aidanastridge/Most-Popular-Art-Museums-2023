@@ -69,6 +69,7 @@ library(tidyverse)
 library(shiny)
 library(echarts4r)
 library(bslib)
+library(DT)
 
 # Import
 
